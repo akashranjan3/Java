@@ -1,0 +1,7 @@
+https://www.geeksforgeeks.org/thread-safety-and-how-to-achieve-it-in-java/
+
+There are four ways to achieve Thread Safety in Java. These are:
+Synchronization: ex. synchronized void sum(int n){}
+Volatile Keyword: ex. static volatile int sharedVar = 6;
+Atomic Variable: ex. AtomicInteger count = new AtomicInteger();
+Final Keyword:
