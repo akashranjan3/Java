@@ -79,7 +79,7 @@ public class ex1 {
             }
             return i.getKey().length()-j.getKey().length();
         }).toList().forEach(i-> linkedList.put(i.getKey(), i.getValue()));
-        System.out.println(linkedList);
+        System.out.println("answer: "+linkedList);
         int[] nummm = {80, 8, 7, };
     }
 
